@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Réveil</title>
     <link rel="stylesheet" href="./assets/css/nav.css?<?php echo time(); ?>">
-    <link rel="stylesheet" href="./assets/css/style_reveil.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="./assets/css/reveil.css?<?php echo time(); ?>">
 </head>
 <body>
 
@@ -24,6 +24,6 @@
     </div>
 </div>
 
-<script src="script.js"></script>
+<script src="./assets/js/script_reveil.js"></script>
 </body>
 </html>

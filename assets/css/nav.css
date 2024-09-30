@@ -1,15 +1,41 @@
-.choix{
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.choix {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10vh; 
+    padding: 10px;
 }
-.cont{
+
+.cont {
     width: 80px;
     height: 80px;
-    background-color:rgba(255,61, 0.15);
+    background-color: rgba(255, 61, 0, 0.15);
     border-radius: 10px;
     margin: 0 10px;
     display: flex;
-  
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.choix a {
+    text-decoration: none;
+}
+
+.cont {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.cont:hover {
+    background-color: rgba(255, 61, 0, 0.3);
 }
