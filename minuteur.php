@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minuteur</title>
-    <link rel="stylesheet" href="../assets/css/nav.css?<?php echo time(); ?>">
-    <link rel="stylesheet" href="../assets/css/style_minuteur.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="./assets/css/nav.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="./assets/css/style_minuteur.css?<?php echo time(); ?>">
 </head>
 <body>
 
 <section class="timer-container">
-    <?php include('../Nav/nav.php'); ?>
+    <?php include('./Nav/nav.php'); ?>
     <h1>Minuteur</h1>
     <div id="time-display">00:00</div>
     <div class="timer-controls">

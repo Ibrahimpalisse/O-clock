@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -16,7 +15,7 @@ body {
     color: #fff;
 }
 
-.timer-container {
+.stopwatch-container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 2rem;
@@ -33,22 +32,18 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.timer-controls {
+.stopwatch-controls {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
 }
 
-.timer-actions {
-    margin-top: 1rem;
-}
-
 button {
     padding: 0.5rem 1rem;
     font-size: 1rem;
     cursor: pointer;
-    background-color:  #FF3D00;
+    background-color: #FF3D00 ;
     color: white;
     border: none;
     border-radius: 5px;
@@ -56,20 +51,25 @@ button {
 }
 
 button:hover {
-    background-color: #FF3D00;
+    background-color:  #FF3D00 ;
 }
 
-input[type="number"] {
-    padding: 0.5rem;
-    font-size: 1rem;
-    width: 60px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #fff;
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
 }
 
+.lap-times {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 1rem;
+}
 
+#laps-list {
+    list-style-type: none;
+    padding: 0;
+}
 
-
+#laps-list li {
+    margin-bottom: 0.5rem;
+}
