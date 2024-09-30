@@ -4,6 +4,7 @@ let seconds = document.getElementById('seconds');
 
 function updateClock() {
     let now = new Date();
+    console.log(now);
     
     hours.textContent = now.getHours().toString().padStart(2, '0');
     minutes.textContent = now.getMinutes().toString().padStart(2, '0');
