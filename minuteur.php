@@ -24,6 +24,6 @@
    
 </section>
 
-<script src="../assets/js/script_minuteur.js"></script>
+<script src="./assets/js/script_minuteur.js"></script>
 </body>
 </html>
