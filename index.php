@@ -24,6 +24,6 @@
             </div>
         </section> 
     </main>    
-    <script src="./assets/js/recupe_horloge.js"></script>
+    <script src="./assets/js/recupe_heur.js"></script>
 </body>
 </html>
